@@ -1,0 +1,170 @@
+header {
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    text-align: center;
+}
+
+#content1 {
+    padding-bottom: 100px;
+    
+}
+
+#content2 {
+    padding-bottom: 100px;
+}
+
+#content3 {
+    padding-bottom: 100px;
+}
+
+#content4 {
+    padding-bottom: 100px;
+}
+
+#content5 {
+    padding-bottom: 100px;
+}
+
+#content6 {
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: white;
+}
+
+/* css grid */
+
+#content1 {
+    grid-column: 1 / span 12;
+    grid-row: 1;
+}
+
+#content2 {
+    grid-column: 1 / span 12;
+    grid-row: 2;
+}
+
+#content3 {
+    grid-column: 1 / span 12;
+    grid-row: 3;
+}
+
+#content4 {
+    grid-column: 1 / span 12;
+    grid-row: 4;
+}
+
+#content5 {
+    grid-column: 1 / span 12;
+    grid-row: 5;
+}
+
+#content6 {
+    grid-column: 1 / span 12;
+    grid-row: 6;
+}
+
+/* TABLET STYLES */
+
+@media only screen and (min-width: 600px) {
+    
+    
+    /* CSS GRID TABLET */
+    
+    #content1 {
+        grid-column: 1 / span 12;
+        grid-row: 1;
+    }
+
+    #content2 {
+        grid-column: 1 / span 6;
+        grid-row: 2;
+    }
+
+    #content3 {
+        grid-column: 7 / span 6;
+        grid-row: 2;
+    }
+
+    #content4 {
+        grid-column: 1 / span 12;
+        grid-row: 3;
+    }
+    
+    #content5 {
+        grid-column: 1 / span 12;
+        grid-row: 4;
+    }
+    
+    #content6 {
+        grid-column: 1 / span 12;
+        grid-row: 5;
+    }
+    
+}
+
+/* DESKTOP STYLES */
+
+@media only screen and (min-width: 1025px) {
+    
+     /* CSS GRID TABLET */
+    
+    #content1 {
+        grid-column: 1 / span 12;
+        grid-row: 1;
+    }
+
+    #content2 {
+        grid-column: 1 / span 6;
+        grid-row: 2;
+    }
+
+    #content3 {
+        grid-column: 7 / span 6;
+        grid-row: 2;
+    }
+
+    #content4 {
+        grid-column: 1 / span 12;
+        grid-row: 3;
+    }
+    
+    #content5 {
+        grid-column: 1 / span 6;
+        grid-row: 4;
+    }
+    
+    #content6 {
+        grid-column: 7 / span 6;
+        grid-row: 4;
+    }
+}
